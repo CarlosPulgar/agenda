@@ -55,6 +55,10 @@ form {
   padding: 0px;
 }
 
+.inputTime{
+  height: auto;
+}
+
 .btnCreate {
   padding: 10px 15px;
   background-image: linear-gradient(
