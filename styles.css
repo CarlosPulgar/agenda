@@ -24,6 +24,7 @@ form {
   align-items: center;
   display: flex;
   margin-bottom: 15px;
+  
 }
 
 .mainCard {
@@ -31,6 +32,7 @@ form {
   border-radius: 25px;
   background-color: #fff;
   padding: 25px;
+  
 }
 
 .title {
@@ -104,9 +106,13 @@ form {
 .completeIcon {
   color: rgba(62, 161, 219, 1);
 }
-
+.trashIcon{
+ margin-left: 1rem;
+  color: rgb(104, 104, 85, .8);
+}
 .trashIcon:hover {
   color: #f00;
+  
 }
 
 .deleteConfirmationPop {
@@ -129,4 +135,22 @@ form {
 .date{
   width:100%;
   padding: 1rem;
+}
+
+/* RESPONSIVE MOVILE */
+@media (max-width:550px){
+  .mainCard{
+    width: 80%;
+  }
+  form{
+    flex-direction: column;
+  }
+  .btnCreate{
+    margin:10px 0 0;
+  }
+  .inputForm{
+    width:70%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
